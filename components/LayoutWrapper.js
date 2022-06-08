@@ -20,7 +20,9 @@ const LayoutWrapper = ({ children }) => {
                 </div> */}
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-                    {siteMetadata.headerTitle}{' '}
+                    <span className="bg-gradient-to-r from-green-400 to-blue-600 bg-clip-text text-transparent">
+                      {siteMetadata.headerTitle}{' '}
+                    </span>
                     <span role="img" aria-label="waving hand" className="wave">
                       👋
                     </span>
