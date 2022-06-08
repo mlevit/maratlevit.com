@@ -1,6 +1,6 @@
 ---
 title: 'Finding the right AWS compute service for your workload'
-date: '2020-08-10'
+date: '2021-12-06'
 tags: ['aws', 'compute', 'decision tree', 'Amazon Web Services']
 draft: false
 summary: 'Version 2, harder, better, faster, stronger.'

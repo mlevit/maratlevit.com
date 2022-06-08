@@ -90,21 +90,26 @@ Whether you’re sharing your code snippets within a Medium article, on Twitter,
 
 ### Before 💩
 
-    const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+```javascript
+const pluckDeep = (key) => (obj) => key.split('.').reduce((accum, key) => accum[key], obj)
 
-    const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+const compose =
+  (...fns) =>
+  (res) =>
+    fns.reduce((accum, next) => next(accum), res)
 
-    const unfold = (f, seed) => {
-      const go = (f, seed, acc) => {
-        const res = f(seed)
-        return res ? go(f, res[1], acc.concat([res[0]])) : acc
-      }
-      return go(f, seed, [])
-    }
+const unfold = (f, seed) => {
+  const go = (f, seed, acc) => {
+    const res = f(seed)
+    return res ? go(f, res[1], acc.concat([res[0]])) : acc
+  }
+  return go(f, seed, [])
+}
+```
 
 ### After 🔥
 
-<iframe src="https://medium.com/media/b8d8509c4f07a285ab38a06595661c36" frameborder=0></iframe>
+![](./code.png)
 
 ## Bonus Round: Avatars
 
