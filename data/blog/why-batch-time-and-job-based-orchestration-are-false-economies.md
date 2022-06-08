@@ -1,7 +1,7 @@
 ---
 title: 'Why batch-, time-, and job-based orchestration are false economies'
-date: '2019-10-11'
-tags: ['data', 'orchestration']
+date: '2021-12-17'
+tags: ['data', 'orchestration', 'batch', 'event', 'data platforms']
 draft: false
 summary: 'Building and relying upon spiderwebs is a thing of the past.'
 ---
