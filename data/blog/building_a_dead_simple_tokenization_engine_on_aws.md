@@ -7,8 +7,7 @@ summary: ''
 ---
 
 ![](https://miro.medium.com/max/1400/0*nVr5Q-nEo6r9V9wY)
-
-Photo by Markus Spiske on Unsplash
+_Photo by Markus Spiske on Unsplash_
 
 Tokenisation is the concept of replacing a sensitive value (i.e., credit card number, social security number, etc.) with a token, not a hash or ciphertext.
 

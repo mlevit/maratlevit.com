@@ -6,7 +6,8 @@ draft: false
 summary: 'Version 2, harder, better, faster, stronger.'
 ---
 
-![Photo by [veeterzy](https://unsplash.com/@veeterzy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/11520/0*iBmg2h8ZKovKWHCi)_Photo by [veeterzy](https://unsplash.com/@veeterzy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
+![Photo by [veeterzy](https://unsplash.com/@veeterzy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/11520/0*iBmg2h8ZKovKWHCi)
+_Photo by [veeterzy](https://unsplash.com/@veeterzy?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
 In April of 2020, I decided to tackle a long-standing problem with AWS: how does one decide on the appropriate service for their undertaking? To “solve” or at the very least assist with this problem, I released the [AWS Compute Decision Tree](https://servian.dev/choosing-a-suitable-aws-compute-product-a-decision-tree-1dc46caef824). The decision tree requires you, the reader, to answer a bunch of questions until you finally reach a recommended AWS service.
 

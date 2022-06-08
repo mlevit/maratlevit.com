@@ -7,8 +7,7 @@ summary: ''
 ---
 
 ![](https://miro.medium.com/max/1400/0*GNZFy3EqtfUV73sf)
-
-Photo by R Mo on Unsplash
+_Photo by R Mo on Unsplash_
 
 With the introduction and [general availability of materialized views](https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-redshift-introduces-support-for-materialized-views/), I wanted to explore the possibility of creating “virtual” data warehouses. By virtual, I am referring to a warehouse that is built without ETL tools (i.e., Talend, Informatica, dbt, or Dataform for that matter).
 

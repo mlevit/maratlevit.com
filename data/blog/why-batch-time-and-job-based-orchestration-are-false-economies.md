@@ -6,7 +6,8 @@ draft: false
 summary: 'Building and relying upon spiderwebs is a thing of the past.'
 ---
 
-![Photo by [Clint Adair](https://unsplash.com/@clintadair?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/10368/0*gItpSiHvdMbIHdrQ)_Photo by [Clint Adair](https://unsplash.com/@clintadair?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
+![Photo by [Clint Adair](https://unsplash.com/@clintadair?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/10368/0*gItpSiHvdMbIHdrQ)
+_Photo by [Clint Adair](https://unsplash.com/@clintadair?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
 Orchestration is hard. Orchestrating the mess that are data platforms is even more challenging. You have countless source systems, all with their delivery schedules, numerous load, transformation, and extraction jobs, each with their dependencies and SLAs. So, as we’ve done for the many years that have passed, we orchestrate all these based on either a batch, a time of day/day of the week, or based on the data pipelines (jobs) themselves.
 

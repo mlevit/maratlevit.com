@@ -6,7 +6,8 @@ draft: false
 summary: 'Two for the price of one baby!'
 ---
 
-![Photo by [Najla Cam](https://unsplash.com/@najlacam?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/15054/0*EUaI_bq4AOza7Mx8)_Photo by [Najla Cam](https://unsplash.com/@najlacam?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
+![Photo by [Najla Cam](https://unsplash.com/@najlacam?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/15054/0*EUaI_bq4AOza7Mx8)
+_Photo by [Najla Cam](https://unsplash.com/@najlacam?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)_
 
 Recently I needed to build a CLI for one of my internally maintained Servian frameworks. Since the framework utilised [Knex.js](https://knexjs.org/), a Node.js SQL query builder, I was on the lookout for a tool that would help accelerate the development of the CLI tool.
 
