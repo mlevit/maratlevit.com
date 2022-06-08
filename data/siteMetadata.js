@@ -1,8 +1,9 @@
 const siteMetadata = {
   title: "Marat's Homepage",
   author: 'Marat Levit',
-  headerTitle: "Marat's Homepage",
-  description: 'Personal blog posts, projects, and more.',
+  headerTitle: "Hey, I'm Marat",
+  description:
+    "I'm a data engineer, solution architect, and AWS APN Ambassador with a passion for building and solving complex data problems.",
   language: 'en-au',
   theme: 'system', // system, dark or light
   siteUrl: 'https://maratlevit.com',

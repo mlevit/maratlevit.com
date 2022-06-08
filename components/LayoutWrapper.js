@@ -1,6 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo.svg'
+// import Logo from '@/data/logo.svg'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
@@ -19,8 +19,11 @@ const LayoutWrapper = ({ children }) => {
                   <Logo />
                 </div> */}
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
-                    {siteMetadata.headerTitle}
+                  <div className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+                    {siteMetadata.headerTitle}{' '}
+                    <span role="img" aria-label="waving hand" className="wave">
+                      👋
+                    </span>
                   </div>
                 ) : (
                   siteMetadata.headerTitle
