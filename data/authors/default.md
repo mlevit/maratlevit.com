@@ -1,6 +1,6 @@
 ---
 name: Marat Levit
-avatar: https://avatars.githubusercontent.com/u/233717?v=4
+avatar: static/images/avatar.jpeg
 occupation: Associate Partner
 company: Servian
 email: 

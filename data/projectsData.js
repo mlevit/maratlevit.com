@@ -1,19 +1,22 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'AWS Auto Cleanup',
+    description: `AWS Auto Cleanup helps clean up your AWS resources, keeping your AWS accounts neat and tidy whilst reducing costs. 
+    AWS Auto Cleanup uses a combination of user-defined allowlists and time-based policies to delete resources that are no longer needed.`,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: 'https://github.com/servian/aws-auto-cleanup',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'AWS Auto Remediate',
+    description: `Open source application to instantly remediate common security issues through the use of AWS Config.`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    href: 'https://github.com/servian/aws-auto-remediate',
+  },
+  {
+    title: 'AWS Compute Decision Tree',
+    description: `With over 170 services to choose from, finding the right AWS compute service can be a challenge. This decision tree will help you find the right AWS compute service for your workload.`,
+    imgSrc: 'https://raw.githubusercontent.com/servian/aws-compute-decision-tree/main/flowchart/application.drawio.svg',
+    href: 'https://github.com/servian/aws-compute-decision-tree',
   },
 ]
 
