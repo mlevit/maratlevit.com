@@ -109,7 +109,7 @@ const unfold = (f, seed) => {
 
 ### After 🔥
 
-![](./code.png)
+![](/static/images/blog/lets_make_your_articles_and_presentations_look_pretty/code.png)
 
 ## Bonus Round: Avatars
 
