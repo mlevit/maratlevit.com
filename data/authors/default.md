@@ -10,4 +10,11 @@ github: https://github.com/mlevit
 medium: https://medium.com/@mlevit
 ---
 
-With his highly diverse range of advisory, technical skills and domain knowledge, Marat has excelled in Cloud Advisory, Data Engineering, Data Governance, Big Data Architecture & Implementation. Marat is a highly engaging leader with a strong consultative demeanour and business acumen.
+I'm a
+
+- Data engineer
+- Solution architect
+- AWS APN Ambassador
+- Gaming, technology, and coffee enthusiast
+
+with a passion for building and solving complex data problems. When time permits, I'm also a maintainer of a number of AWS-related open-source [projects](../projects).
