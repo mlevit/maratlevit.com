@@ -3,6 +3,7 @@ title: 'Creating a virtual data warehouse in Redshift'
 date: '2020-08-16'
 tags: ['AWS', 'Amazon Redshift', 'data warehouse', 'materialized view', 'virtual']
 draft: false
+images: 'https://miro.medium.com/max/1400/0*GNZFy3EqtfUV73sf'
 summary: ''
 ---
 

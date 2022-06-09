@@ -3,6 +3,7 @@ title: 'Choosing a suitable AWS compute product, a decision tree'
 date: '2020-04-02'
 tags: ['AWS', 'compute', 'decision tree', 'analytical', 'application', 'machine learning']
 draft: false
+images: 'https://cdn-images-1.medium.com/max/21276/1*Y19Re7_cN7VSF7Dv9tZY5g.png'
 summary: ''
 ---
 

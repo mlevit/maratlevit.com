@@ -3,7 +3,8 @@ title: 'Let’s Make Your Articles and Presentations Look Pretty'
 date: '2020-08-10'
 tags: ['design', 'presentations', 'articles']
 draft: false
-summary: 'Seven tools to make your articles and presentations look professional and consistent.'
+images: 'https://cdn-images-1.medium.com/max/6000/1*jT9kgxquCWMw8wPmLLrkww.png'
+summary: ''
 ---
 
 Great presentations flow, tell a story, and in general, look appealing. Similarly, well-written articles are accompanied by nicely designed graphics, imagery, and high-quality photos.

@@ -3,6 +3,7 @@ title: 'Importance of Version Control and Why You Need It'
 date: '2018-05-22'
 tags: ['Git', 'continuous integration', 'version control', 'code review', 'Gitflow', 'CI/CD']
 draft: false
+images: 'https://miro.medium.com/max/1400/0*NDB_mVN4AFfuS3Fr.'
 summary: ''
 ---
 

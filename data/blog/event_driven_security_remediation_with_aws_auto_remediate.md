@@ -3,6 +3,7 @@ title: 'Event-driven Security Remediation with AWS Auto Remediate'
 date: '2019-03-21'
 tags: ['AWS', 'event', 'security', 'cybersecurity', 'remediation', 'open source']
 draft: false
+images: 'https://cdn-images-1.medium.com/max/10366/0*_ihgcqvBTiihuJ9j'
 summary: 'Open source application to instantly remediate common security issues through the use of AWS Config'
 ---
 

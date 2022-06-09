@@ -3,6 +3,7 @@ title: 'Automated AWS Resource Cleanup'
 date: '2019-04-15'
 tags: ['AWS', 'application', 'serverless', 'open source', 'cleanup']
 draft: false
+images: 'https://cdn-images-1.medium.com/max/12032/0*byh2t-TLH3zDjk0K'
 summary: 'Auto Cleanup is an open source application built on the Serverless Framework'
 ---
 

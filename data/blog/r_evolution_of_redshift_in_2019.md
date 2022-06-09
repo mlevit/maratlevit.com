@@ -3,6 +3,7 @@ title: '(R)Evolution of Redshift in 2019'
 date: '2019-12-04'
 tags: ['AWS', 'Amazon Redshift', 'cloud', 'data warehouse', 'data']
 draft: false
+images: 'https://miro.medium.com/max/1400/0*DohoWSuS2wqCw7-n'
 summary: ''
 ---
 

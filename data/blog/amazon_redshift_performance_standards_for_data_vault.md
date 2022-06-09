@@ -3,6 +3,7 @@ title: 'Amazon Redshift Performance Standards for Data Vault'
 date: '2018-02-26'
 tags: ['AWS', 'Amazon Redshift', 'Data Vault', 'performance', 'distribution', 'sorting']
 draft: false
+images: 'https://miro.medium.com/max/1400/0*aueAkngfCgLxuWj5.'
 summary: ''
 ---
 

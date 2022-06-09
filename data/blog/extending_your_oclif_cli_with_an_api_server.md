@@ -3,6 +3,7 @@ title: 'Extending your oclif CLI with an API server'
 date: '2021-12-14'
 tags: ['oclif', 'api', 'Express.js', 'Node.js']
 draft: false
+images: 'https://cdn-images-1.medium.com/max/15054/0*EUaI_bq4AOza7Mx8'
 summary: 'Two for the price of one baby!'
 ---
 
