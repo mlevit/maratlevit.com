@@ -21,7 +21,7 @@ Let's start by creating a super simple CLI with oclif.
 
 - Install oclif
 
-  npm install -g oclif
+  `npm install -g oclif`
 
 - Create the CLI
 
@@ -29,7 +29,7 @@ Let's start by creating a super simple CLI with oclif.
 
 - Install the new CLI
 
-  cd mynewcli && npm install -g
+  `cd mynewcli && npm install -g`
 
 - View the new CLI help menu (just cause)
 
@@ -73,7 +73,7 @@ Note: You could also use this opportunity to tweak your response for API or CLI 
 
 - Install [Express.js](https://expressjs.com/)
 
-  npm install -s express
+  `npm install -s express`
 
 - Add Express.js to the api command
 
@@ -103,4 +103,4 @@ There's nothing more to be done to improve it. It's perfect! Best it could ever 
 
 Nah! Of course you can improve it. I'm sure there are probably some better ways of doing this too. But this worked for me with minimal effort, and the nice thing is that the API will work for all future commands without requiring any changes 🤞.
 
-To make it easier for you to get started, you can find all the above code in the below GitHub repo: [GitHub - servian/oclif-api](https://github.com/servian/oclif-api)
+To make it easier for you to get started, you can find all the above code in the below GitHub repo: [GitHub - servian/oclif-api](https://github.com/servian/oclif-api).
