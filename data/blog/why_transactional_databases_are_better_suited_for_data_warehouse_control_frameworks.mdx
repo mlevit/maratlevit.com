@@ -1,0 +1,65 @@
+---
+title: 'Why Transactional Databases are Better Suited for Data Warehouse Control Frameworks'
+date: '2018-04-10'
+tags:
+  [
+    'AWS',
+    'Amazon Redshift',
+    'PostgreSQL',
+    'ETL',
+    'control framework',
+    'audit framework',
+    'metadata',
+  ]
+draft: false
+summary: ''
+---
+
+![](https://miro.medium.com/max/1400/0*rRB5y8Z-Ej_Jri2t.)
+_by Dietmar Becker on Unsplash_
+
+With no slow down in data warehouse adoption and the rise of the 'data is king' mentality, there is an ever-increasing need to ensure data warehouses are running smoothly, efficiently and, with full audit traceability and data lineage. Capturing this data is usually left up to the control framework. Whether custom built fit-for-purpose or included with the ETL tool, it's a critical part of any well-built data warehouse.
+
+For those not overly familiar with different database systems, there are two currently in use, transactional (i.e. [SMP](https://en.wikipedia.org/wiki/Symmetric_multiprocessing)) and analytical (i.e. [MPP](https://en.wikipedia.org/wiki/Massively_parallel) or Hadoop based). Transactional databases are better suited for processing many singular writes/reads whilst analytical databases are better suited for mass reads/writes, favouring reading data a lot more than writing.
+
+When selecting the right database system for a data warehouse control framework, we first need to understand the function of the control framework and the types of data that will be hosted in it. Generally, this can include:
+
+- Data warehouse audit data (including logs, statistics and record metrics). This can be further extended past the ETL tool to include external sources such as scheduling tools, analysis cube tools, file catalogues, streaming data metadata and more.
+
+- Data warehouse metadata (file-to-table mapping, table-to-table mapping, column-to-column mapping, table-to-view mapping etc). This can then be further extended to include source files and tables as well as target files, tables, and reports.
+
+- Alerts triggered by the control framework based on audit data collected and stored in the control framework.
+
+Looking at the nature of these records, we notice that they will most likely be generated transactionally (i.e. always one record generated at a time and pushed to the database) from either the ETL tool, the scheduling tool or even from the control framework itself based on internal triggers or external monitoring tools. This makes transactional databases a perfect fit.
+
+The control framework will be hit hundreds if not thousands of times each and every hour your data warehouse is ingesting, processing or generating data. Any delay in processing the records in the database will cause delays to the data warehouse as records begin to queue and await their turn to be processed.
+
+In order to better understand why transactional databases are better suited for data warehouse control frameworks, a simple benchmark test utilising PostgreSQL as our transactional database of choice was conducted against Amazon Redshift, our analytical database of choice. Both databases utilise the PostgreSQL database engine, however, optimised for different objectives.
+
+## Performance
+
+In order to evaluate the performance between transactional and analytical systems, a simple Insert, Update, and Delete benchmark was run.
+
+<iframe src="https://medium.com/media/d7617bca129bc3f667c7140d22755fe9" frameborder="0"></iframe>
+
+As seen from the above results, when running operations transactionally, PostgreSQL (transactional) on average is 44 times faster at performing those operations even to the point where it's nearly as quick to perform one hundred operations on PostgreSQL as it is to perform one on Redshift.
+
+When we imagine a data warehouse at load with hundreds of ETL and scheduling jobs running in parallel all throwing tens or hundreds of logs, statistics, and metrics every single minute, we can quickly see how these transactions will begin to pile up in a queue forcing jobs to wait until a response is received from the database confirming the records has been inserted, updated, or deleted.
+
+## Constraints
+
+Constraints are rules defined at the table level that enforce data compliance. Constraints can include primary and foreign keys, column uniqueness and even column data values (i.e. data stored in a particular column must match a list of allowable values).
+
+When creating the control framework, database constraints play a major part in ensuring valid data quality and consistency. Without properly implemented constraints, the control framework can easily become hard to manage, maintain, and query. This can be especially true when extending the control framework to capture audit and metadata from external sources such as scheduling and reporting tools.
+
+Analytical databases such as Amazon Redshift, IBM Netezza or, Azure SQL Data Warehouse, on the other hand, do not enforce constraints (except for the column NOT NULL constraint). This is mainly due to the fact that the purpose of these databases is to analyse and report on the data stored no matter the quality or compliance (that is left up to the source system of the data).
+
+## Stored Procedures, Functions, and Triggers
+
+Other functionality that is useful for control frameworks generally missing in analytical databases is Stored Procedures, Functions, and Triggers.
+
+**Stored Procedures** and **Functions** serve similar purposes of being able to run batch-like workloads against the data. They can perform functions that cannot be performed via Data Manipulation Language (DML) such as the ability to accept arguments, create variables, create loops and even drop and create tables and views. The power of Stored Procedures and Functions can be utilised for workloads that are not critical to be run at the time of data processing (i.e. when data is being inserted into the database).
+
+**Triggers**, on the other hand, are Stored Procedures that automatically execute when an event occurs. DML triggers execute when a user tries to modify data through a DML event. DML events are INSERT, UPDATE, or DELETE statements on a table or view. This makes triggers very powerful as they are able to run certain operations based on the data changes at the time they occur.
+
+At the end of the day, it may be convenient or even easy to host both your data warehouse and control framework on the same analytical database, but the requirements of the control framework and the reduced functionality provided by most analytical databases will greatly disadvantage the performance and functionality needed to maintain a fast, reliable, and accurate control framework.
