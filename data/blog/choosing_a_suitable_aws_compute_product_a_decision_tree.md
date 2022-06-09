@@ -1,7 +1,7 @@
 ---
 title: 'Choosing a suitable AWS compute product, a decision tree'
 date: '2020-04-02'
-tags: ['AWS', 'compute', 'serverles', 'containers', 'decision tree']
+tags: ['AWS', 'compute', 'decision tree', 'analytical', 'application', 'machine learning']
 draft: false
 summary: ''
 ---
