@@ -1,7 +1,7 @@
 ---
 title: 'Importance of Version Control and Why You Need It'
 date: '2018-05-22'
-tags: ['AWS', 'Application', 'Serverless', 'Open Source', 'Cleanup']
+tags: ['Git', 'continuous integration', 'version control', 'code review', 'Gitflow', 'CI/CD']
 draft: false
 summary: ''
 ---

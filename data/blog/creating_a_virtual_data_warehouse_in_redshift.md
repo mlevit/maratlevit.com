@@ -1,7 +1,7 @@
 ---
 title: 'Creating a virtual data warehouse in Redshift'
 date: '2020-08-16'
-tags: ['AWS', 'Redshift', 'Data Warehouse']
+tags: ['AWS', 'Amazon Redshift', 'data warehouse', 'materialized view', 'virtual']
 draft: false
 summary: ''
 ---

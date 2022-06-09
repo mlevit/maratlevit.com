@@ -1,7 +1,18 @@
 ---
 title: '7 Developer Tools to Make Work That Little bit Easier'
 date: '2018-07-17'
-tags: ['Developer Tools', 'Code', 'Keepass', 'Regular Expressions', 'Tools']
+tags:
+  [
+    'developer tools',
+    'list',
+    'KeePass',
+    'DB Fiddle',
+    'Instant SQL Formatter',
+    'REPL',
+    'Regex 101',
+    'DiffChecker',
+    'Pastebin',
+  ]
 draft: false
 summary: ''
 ---

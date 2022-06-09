@@ -1,7 +1,7 @@
 ---
 title: 'Building a Dead Simple Tokenization Engine on AWS'
 date: '2020-03-02'
-tags: ['AWS', 'Tokenization', 'Security', 'Encryption', 'Hash']
+tags: ['AWS', 'tokenization', 'security', 'encryption', 'hashing', 'cryptography']
 draft: false
 summary: ''
 ---

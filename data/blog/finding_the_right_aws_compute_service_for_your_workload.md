@@ -1,7 +1,16 @@
 ---
 title: 'Finding the right AWS compute service for your workload'
 date: '2021-12-06'
-tags: ['AWS', 'compute', 'decision tree', 'analytical', 'application', 'machine learning']
+tags:
+  [
+    'AWS',
+    'compute',
+    'decision tree',
+    'analytical',
+    'application',
+    'machine learning',
+    'open source',
+  ]
 draft: false
 summary: 'Version 2, harder, better, faster, stronger.'
 ---

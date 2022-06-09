@@ -1,7 +1,7 @@
 ---
 title: '(R)Evolution of Redshift in 2019'
 date: '2019-12-04'
-tags: ['AWS', 'Redshift', 'Cloud', 'Data Warehouse', 'Data']
+tags: ['AWS', 'Amazon Redshift', 'cloud', 'data warehouse', 'data']
 draft: false
 summary: ''
 ---

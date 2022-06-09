@@ -1,7 +1,7 @@
 ---
 title: 'Automated AWS Resource Cleanup'
 date: '2019-04-15'
-tags: ['AWS', 'Application', 'Serverless', 'Open Source', 'Cleanup']
+tags: ['AWS', 'application', 'serverless', 'open source', 'cleanup']
 draft: false
 summary: 'Auto Cleanup is an open source application built on the Serverless Framework'
 ---
