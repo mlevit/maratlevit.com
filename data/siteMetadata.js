@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/mlevit/maratlevit.com',
   siteLogo: '',
   image: '/static/images/avatar.png',
-  socialBanner: '',
+  socialBanner: '/static/images/social.png',
   email: '',
   github: 'https://github.com/mlevit',
   twitter: 'https://twitter.com/MaratLevit',

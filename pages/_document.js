@@ -5,6 +5,25 @@ class MyDocument extends Document {
       <Html lang="en" className="scroll-smooth">
         <Head>
           <link rel="icon" type="image/svg+xml" href="/static/favicons/favicon.svg" />
+
+          <meta name="title" content="Hey, I'm Marat 👋" />
+          <meta name="description" content="technologist, consultant, data, architect" />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://maratlevit.com/" />
+          <meta property="og:title" content="Hey, I'm Marat 👋" />
+          <meta property="og:description" content="technologist, consultant, data, architect" />
+          <meta property="og:image" content="https://maratlevit.com" />
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://maratlevit.com/" />
+          <meta property="twitter:title" content="Hey, I'm Marat 👋" />
+          <meta
+            property="twitter:description"
+            content="technologist, consultant, data, architect"
+          />
+          <meta property="twitter:image" content="https://maratlevit.com" />
+
           {/* <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
           <link
             rel="icon"
