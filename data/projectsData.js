@@ -18,6 +18,12 @@ const projectsData = [
     imgSrc: 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png',
     href: 'https://github.com/servian/aws-compute-decision-tree',
   },
+  {
+    title: 'Amazon Redshift Checklist',
+    description: `This checklist aims to be an exhaustive list of all elements you should consider when using Amazon Redshift.`,
+    imgSrc: 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png',
+    href: 'https://github.com/servian/amazon-redshift-checklist',
+  },
 ]
 
 export default projectsData
