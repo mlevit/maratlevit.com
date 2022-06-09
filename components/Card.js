@@ -6,7 +6,7 @@ const Card = ({ title, description, imgSrc, href }) => (
     <div
       className={`${
         imgSrc && 'h-full'
-      }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
+      }  flex flex-col overflow-hidden rounded-xl bg-gradient-to-r from-white to-white p-[1px] hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-600`}
     >
       {imgSrc &&
         (href ? (
@@ -14,7 +14,7 @@ const Card = ({ title, description, imgSrc, href }) => (
             <Image
               alt={title}
               src={imgSrc}
-              className="object-cover object-center md:h-36 lg:h-48"
+              className="rounded-t-xl object-cover object-center md:h-36 lg:h-48"
               width={544}
               height={306}
             />
@@ -23,12 +23,12 @@ const Card = ({ title, description, imgSrc, href }) => (
           <Image
             alt={title}
             src={imgSrc}
-            className="object-cover object-center md:h-36 lg:h-48"
+            className="rounded-t-xl object-cover object-center md:h-36 lg:h-48"
             width={544}
             height={306}
           />
         ))}
-      <div className="p-6">
+      <div className="flex-1 justify-between rounded-b-xl bg-white p-6 dark:bg-black">
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
           {href ? (
             <Link href={href} aria-label={`Link to ${title}`}>
