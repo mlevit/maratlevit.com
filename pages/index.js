@@ -19,7 +19,7 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <p className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
             {siteMetadata.description}
@@ -36,9 +36,9 @@ export default function Home({ posts }) {
             return (
               <div
                 key={slug}
-                className="mb-12 w-full rounded-xl bg-gradient-to-r from-white to-white p-[1px] hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-600"
+                className="mb-12 w-full rounded-xl bg-white p-[1px] hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-600"
               >
-                <li className="flex h-full flex-col  justify-between rounded-xl rounded-lg bg-white p-1 dark:bg-black">
+                <li className="flex h-full flex-col justify-between rounded-xl bg-white p-1 dark:bg-black">
                   <article className="m-12">
                     <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                       <dl>
