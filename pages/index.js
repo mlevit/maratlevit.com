@@ -36,7 +36,7 @@ export default function Home({ posts }) {
             return (
               <div
                 key={slug}
-                className="mb-12 w-full rounded-xl bg-white p-[1px] hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-600"
+                className="mb-12 w-full rounded-xl bg-white p-[1px] transition duration-500 ease-in-out hover:bg-gradient-to-r hover:from-green-400 hover:to-blue-600"
               >
                 <li className="flex h-full flex-col justify-between rounded-xl bg-white p-1 dark:bg-black">
                   <article className="m-12">
