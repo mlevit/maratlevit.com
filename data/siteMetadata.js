@@ -2,7 +2,7 @@ const siteMetadata = {
   title: "Hey, I'm Marat",
   author: 'Marat Levit',
   headerTitle: "Hey, I'm Marat",
-  description: 'technologist, consultant, data, architect',
+  description: '~/technologist/consultant/data',
   language: 'en-au',
   theme: 'system', // system, dark or light
   siteUrl: 'https://maratlevit.com',

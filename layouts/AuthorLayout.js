@@ -11,8 +11,8 @@ export default function AuthorLayout({ children, frontMatter }) {
       <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
       <div className="">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
-            /about/me
+          <h1 className="font-mono text-3xl font-normal leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+            ~/about/me<span className="animate-pulse">_</span>
           </h1>
         </div>
         <div className="items-start space-y-2 rounded-xl border p-12 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">

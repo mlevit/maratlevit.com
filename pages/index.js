@@ -21,8 +21,9 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <p className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+          <p className="font-mono text-3xl font-normal leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
             {siteMetadata.description}
+            <span className="animate-pulse">_</span>
           </p>
         </div>
         <ul className="">
