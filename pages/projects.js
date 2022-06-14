@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="font-mono text-3xl font-normal leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
-            ~/my/projects<span className="animate-pulse">_</span>
+            ls ~/my/projects<span className="animate-pulse">_</span>
           </h1>
           {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Various projects I've worked on.
