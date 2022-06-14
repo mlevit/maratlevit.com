@@ -24,7 +24,7 @@ export default function Home({ posts }) {
           <p className="font-mono text-3xl font-normal leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
             {/* {siteMetadata.description} */}
             echo "Data engineer, Solution architect, AWS APN Ambassador, Gaming, technology, and
-            coffee enthusiast" > ~/about.me
+            coffee enthusiast" > ~/about.me<span className="animate-pulse">_</span>
           </p>
         </div>
         <ul className="">
