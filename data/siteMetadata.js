@@ -15,7 +15,7 @@ const siteMetadata = {
   twitter: 'https://twitter.com/MaratLevit',
   medium: 'https://medium.com/@mlevit',
   youtube: '',
-  linkedin: 'https://www.linkedin.com/MaratLevit',
+  linkedin: 'https://www.linkedin.com/in/maratlevit/',
   locale: 'en-AU',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
