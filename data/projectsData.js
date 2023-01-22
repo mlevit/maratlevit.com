@@ -4,13 +4,13 @@ const projectsData = [
     description: `AWS Auto Cleanup helps clean up your AWS resources, keeping your AWS accounts neat and tidy whilst reducing costs. 
     AWS Auto Cleanup uses a combination of user-defined allowlists and time-based policies to delete resources that are no longer needed.`,
     imgSrc: 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png',
-    href: 'https://github.com/servian/aws-auto-cleanup',
+    href: 'https://github.com/mlevit/aws-auto-cleanup',
   },
   {
     title: 'AWS Auto Remediate',
     description: `Open source application to instantly remediate common security issues through the use of AWS Config.`,
     imgSrc: 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png',
-    href: 'https://github.com/servian/aws-auto-remediate',
+    href: 'https://github.com/mlevit/aws-auto-remediate',
   },
   {
     title: 'AWS Compute Decision Tree',
@@ -23,6 +23,12 @@ const projectsData = [
     description: `This checklist aims to be an exhaustive list of all elements you should consider when using Amazon Redshift.`,
     imgSrc: 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png',
     href: 'https://github.com/servian/amazon-redshift-checklist',
+  },
+  {
+    title: 'Life',
+    description: `Life is a simple event timeline of events important to your life.`,
+    imgSrc: '/static/images/projects/life.png',
+    href: 'https://github.com/mlevit/life',
   },
 ]
 
